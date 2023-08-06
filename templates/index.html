@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SCC Enquiry Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>SCC Enquiry Bot</header>
+    <div class="container">
+        <div class="chat-box" id="chat-roll">
+            <p class="bot-message"><b>Bot:</b> Welcome! How can I help you today?</p>
+            <div id="chat-box">
+                {% for message, response in chat_history %}
+                    <p class="user-message"><b>You:</b> {{ message }}</p>
+                    <p class="bot-message"><b>Bot:</b> {{ response }}</p><hr>
+                {% endfor %}
+            </div>
+        </div>
+
+        <form action="/" method="POST">
+            <input type="text" name="message" placeholder="Type your message here...">
+            <input type="submit" value="Send">
+            <button id="speak-button" type="button" disabled>
+                Speak
+            </button>
+        </form>
+        
+        <footer>
+            <div class="centered-image">
+                <img class="footer-image" src="https://www.thebigger.com/universities/wp-content/uploads/2011/09/Scottish-Church-College-logo.png" alt="Footer Image">
+            </div>
+            <div class="footer-text">
+                <span>&copy; Avishek &amp; Jishnu</span>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // JavaScript code
+        var chatHistory = {{ chat_history | tojson }};
+
+        function displayChatHistory() {
+            var chatBox = document.getElementById("chat-box");
+            chatBox.innerHTML = "";
+
+            for (var i = 0; i < chatHistory.length; i++) {
+                var userMessage = chatHistory[i][0];
+                var botResponse = chatHistory[i][1];
+
+                var userMessageElement = document.createElement("p");
+                userMessageElement.classList.add("user-message");
+                userMessageElement.innerHTML = "<b>You:</b> " + userMessage;
+
+                var botMessageElement = document.createElement("p");
+                botMessageElement.classList.add("bot-message");
+                botMessageElement.innerHTML = "<b>Bot:</b> " + botResponse;
+
+                chatBox.appendChild(userMessageElement);
+                chatBox.appendChild(botMessageElement);
+                chatBox.appendChild(document.createElement("hr"));
+            }
+
+            //chatBox.scrollTop = chatBox.scrollHeight;
+            enableSpeakButton(); // Enable Speak button for the latest bot response
+        }
+
+        function enableSpeakButton() {
+            var speakButton = document.getElementById("speak-button");
+            speakButton.disabled = false;
+        }
+
+        function speakCurrentBotResponse() {
+            var currentBotResponse = chatHistory[chatHistory.length - 1][1];
+            speak(currentBotResponse);
+        }
+
+        function speak(text) {
+            var utterance = new SpeechSynthesisUtterance(text);
+            speechSynthesis.speak(utterance);
+        }
+
+        window.onload = function() {
+            displayChatHistory();
+            var chatBox = document.getElementById("chat-roll");
+            chatBox.scrollTop = chatBox.scrollHeight;
+        };
+
+       
+    </script>
+    <script>
+        // JavaScript code for Speak button
+        var speakButton = document.getElementById("speak-button");
+        speakButton.addEventListener("click", speakCurrentBotResponse);
+    </script>
+</body>
+</html>
+
