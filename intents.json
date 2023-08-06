@@ -1,0 +1,1367 @@
+{
+    "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                            "Hi",
+                            "How are you",
+                            "Is anyone there?",
+                            "Hello",
+                            "Good day",
+                            "Whats up",
+                            "how are ya",
+                            "heyy",
+                            "hey",
+                            "whatsup"
+                    ],
+                    "responses": [
+                            "Hello!",
+                            "Good to see you again!",
+                            "Hi there, how can I help?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "goodbye",
+                    "patterns": [
+                            "cya",
+                            "see you",
+                            "bye bye",
+                            "See you later",
+                            "Goodbye",
+                            "I am Leaving",
+                            "Bye",
+                            "Have a Good day",
+                            "talk to you later",
+                            "tyyl",
+                            "i got to go",
+                            "gtg"
+                    ],
+                    "responses": [
+                            "Sad to see you go :(",
+                            "Talk to you later",
+                            "Goodbye!",
+                            "Come back soon"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "creator",
+                    "patterns": [
+
+                            "what is the name of your developers",
+                            "what is the name of your creators",
+                            "what is the name of the developers",
+                            "what is the name of the creators",
+                            "who created you",
+                            "manufacturer",
+                            "manufacturers",
+                            "who manufactured you?",
+                            "your developers",
+                            "your creators",
+                            "who are your developers",
+                            "developer",
+                            "developers",
+                            "you are made by",
+                            "you are made by whom",
+                            "who created you",
+                            "who create you",
+                            "creators",
+                            "creator",
+                            "god",
+                            "who made you",
+                            "who designed you"
+                    ],
+                    "responses": [
+                            "Avishek and Jishnu created me for their final year project in 2023",
+                            "Jishnu and Avishek created me for their final year project in 2023",
+                            "Avishek and Jishnu are my creators",
+                            "I have been developed by Jishnu and Avishek"
+                   ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "name",
+                    "patterns": [
+                            "name",
+                            "your name",
+                            "do you have a name",
+                            "what are you called",
+                            "what is your name",
+                            "what should I call you",
+                            "whats your name?",
+                            "what are you",
+                            "who are you",
+                            "who is this",
+                            "what am i chatting to",
+                            "who am i taking to",
+                            "what are you"
+                    ],
+                    "responses": [
+                            "I am a College Enquiry Chatbot, specifically designed for Scottish Church College. You can call me SCC chatbot.",
+                            "I am College Enquiry Chatbot.",
+                            "I identify as SCC chatbot.",
+                            "My creators call me by the name of SCC chatbot."
+        ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "hours",
+                    "patterns": [
+                            "timing of college",
+                            "what is college timing",
+                            "working days",
+                            "when are you guys open",
+                            "what are your hours",
+                            "hours of operation",
+                            "when is the college open",
+                            "college timing",
+                            "what about college timing",
+                            "is college open on saturday",
+                            "tell something about college timing",
+                            "what is the college  hours",
+                            "when should i come to college",
+                            "when should i attend college",
+                            "what is my college time",
+                            "college timing",
+                            "timing college"
+                    ],
+                    "responses": [
+                            "Gates are open 10:00 to 17:00, Monday-Friday!",
+                            "The college is open 10am-5pm on working days."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "number",
+                    "patterns": [
+
+                            "more info",
+                            "contact info",
+                            "how to contact college",
+                            "college telephone number",
+                            "college number",
+                            "What is your contact no",
+                            "Contact number?",
+                            "how to call you",
+                            "College phone no?",
+                            "how can i contact you",
+                            "Can i get your phone number",
+                            "how can i call you",
+                            "phone number",
+                            "phone no",
+                            "call"
+                    ],
+                    "responses": [
+                            "Here's the contact details: <br>Email: principal@scottishchurch.ac.in<br>College Main Office: +91 33 2350 3862<br>Office of Unaided courses (& PG): +91 33 2354 7105<br>Dept. of Business Administration: +91 33 2360 7533<br>Dept. of Teacher Education: +91 33 2350 3934"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "course",
+                    "patterns": [
+                            "list of courses",
+                            "list of courses offered",
+                            "list of courses offered in SCC",
+                            "list of courses offered in Scottish Church College",
+                            "list of courses offered in Scottish",
+                            "list of courses offered in Scottish Church",
+                            "what are the courses offered in your college?",
+                            "courses?",
+                            "Departments",
+                            "courses offered",
+                            "courses offered in SCC",
+                            "courses offered in Scottish",
+                            "courses offered in Scottish Church",
+                            "courses you offer",
+                            "branches?",
+                            "courses available at SCC?",
+                            "courses available at Scottish?",
+                            "courses available at Scottish Church?",
+                            "courses available at Scottish Church College?",
+                            "branches available at SCC?",
+                            "what are the courses in SCC?",
+                            "what are the courses in Scottish?",
+                            "what are the courses in Scottish Church College?",
+                            "what are the courses in Scottish Church?",
+                            "what are branches in Scottish Church College?",
+                            "what are courses in Scottish Church College?",
+                            "what are courses in SCC?",
+                            "what are courses in Scottish?",
+                            "what are courses in Scottish Church?",
+                            "branches available in Scottish Church College?",
+                            "can you tell me the courses available in Scottish Church College?",
+                            "can you tell me the courses available in Scottish Church?",
+                            "can you tell me the courses available in Scottish?",
+                            "can you tell me the courses available in SCC?",
+                            "can you tell me the branches available in Scottish Church College?"
+                    ],
+                    "responses": [
+                            "The following courses are provided in Scottish Church College:<br>B.A. Honours in Bengali<br>B.A. Honours in English<br>B.A. Honours in Hindi<br>B.A. Honours in History<br>B.A. Honours in Philosophy<br>B.A. Honours in Political Science<br>B.A. Honours in Sanskrit<br>B.A. Honours in Sociology<br>B.A. Honours in Psychology<br>B.A. Honours in Physical Education<br>B.Sc. Honours in Botany<br>B.Sc. Honours in Chemistry<br>B.Sc. Honours in Computer Science<br>B.Sc. Honours in Economics<br>B.Sc. Honours in Mathematics<br>B.Sc. Honours in Botany<br>B.Sc. Honours in Physics<br>B.Sc. Honours in Statistics<br>B.Sc. Honours in Zoology<br>B.Com. (Honours in Accounting and Finance)<br>Bachelor of Business Administration (Honours)<br>Bachelor of Education (B.Ed)<br>M.Sc in Botany<br>M.Sc in Chemistry<br>For more details visit <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/deptDetail.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "fees",
+                    "patterns": [
+                            "information about fee",
+                            "information on fee",
+                            "tell me the fee",
+                            "college fee",
+                            "fee per semester",
+                            "what is the fee of each semester",
+                            "what is the fees of each year",
+                            "what is fee",
+                            "what is the fees",
+                            "how much is the fees",
+                            "fees for first year",
+                            "fees",
+                            "about the fees",
+                            "tell me something about the fees"
+                    ],
+                    "responses": [
+                            "For Fee details visit <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/fees.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "location",
+                    "patterns": [
+                            "where is the college located",
+                            "college is located at",
+                            "where is college",
+                            "where is college located",
+                            "address of college",
+                            "how to reach college",
+                            "college location",
+                            "college address",
+                            "wheres the college",
+                            "how can I reach college",
+                            "whats is the college address",
+                            "what is the address of college",
+                            "address",
+                            "location"
+                    ],
+                    "responses": [
+                            "1 & 3, Urquhart Square, Manicktala, Azad Hind Bag, Kolkata, West Bengal 700006<br>For more details visit <a target=\"_blank\" href=\"https://www.google.com/maps?ll=22.588183,88.370013&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=6975002640564038702\"> here</a>"
+                                                                        
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "hostel",
+                    "patterns": [
+                            "hostel facility",
+                            "hostel servive",
+                            "hostel location",
+                            "hostel address",
+                            "hostel facilities",
+                            "hostel fees",
+                            "Does college provide hostel",
+                            "Is there any hostel",
+                            "Where is hostel",
+                            "do you have hostel",
+                            "do you guys have hostel",
+                            "hostel",
+                            "hostel capacity",
+                            "what is the hostel fee",
+                            "how to get in hostel",
+                            "what is the hostel address",
+                            "how far is hostel from college",
+                            "hostel college distance",
+                            "where is the hostel",
+                            "how big is the hostel",
+                            "distance between college and hostel",
+                            "distance between hostel and college"
+                    ],
+                    "responses": [
+                            "Scottish Church College provides safe and affordable hostel facilities for boys and girls. For more details visit <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/hostel.php\"> here</a>"
+                                                                        
+               ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllBen",
+                    "patterns": [
+                            "Syllabus for Bengali",
+                            "Bengali syllabus",
+                            "syllabus Bengali",
+                            "what is the Bengali syllabus",
+                            "what is the Bengali Honours syllabus",
+                            "what is Bengali syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Bengali Honours is available in the link below. <a target=\"_blank\" href=\"http://www.scottishchurch.ac.in/docs/Syllabus/UG_Bengali_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllEng",
+                    "patterns": [
+                            "Syllabus for English",
+                            "English syllabus",
+                            "syllabus English",
+                            "what is the English syllabus",
+                            "what is the English Honours syllabus",
+                            "what is English syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of English Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_English_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllEng",
+                    "patterns": [
+                            "Syllabus for English",
+                            "English syllabus",
+                            "syllabus English",
+                            "what is the English syllabus",
+                            "what is the English Honours syllabus",
+                            "what is English syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of English Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_English_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllHind",
+                    "patterns": [
+                            "Syllabus for Hindi",
+                            "Hindi syllabus",
+                            "syllabus Hindi",
+                            "what is the Hindi syllabus",
+                            "what is the Hindi Honours syllabus",
+                            "what is Hindi syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Hindi Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Hindi.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllHist",
+                    "patterns": [
+                            "Syllabus for History",
+                            "History syllabus",
+                            "syllabus History",
+                            "what is the History syllabus",
+                            "what is the History Honours syllabus",
+                            "what is History syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of History Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_History_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllPhil",
+                    "patterns": [
+                            "Syllabus for Philosophy",
+                            "Philosophy syllabus",
+                            "syllabus Philosophy",
+                            "what is the Philosophy syllabus",
+                            "what is the Philosophy Honours syllabus",
+                            "what is Philosophy syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Philosophy Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Philosophy_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllPhil",
+                    "patterns": [
+                            "Syllabus for Philosophy",
+                            "Philosophy syllabus",
+                            "syllabus Philosophy",
+                            "what is the Philosophy syllabus",
+                            "what is the Philosophy Honours syllabus",
+                            "what is Philosophy syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Philosophy Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Philosophy_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllPolS",
+                    "patterns": [
+                            "Syllabus for Political Science",
+                            "Political Science syllabus",
+                            "syllabus Political Science",
+                            "what is the Political Science syllabus",
+                            "what is the Political Science Honours syllabus",
+                            "what is Political Science syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Political Science Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_PoliticalScience_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllSans",
+                    "patterns": [
+                            "Syllabus for Sanskrit",
+                            "Sanskrit syllabus",
+                            "syllabus Sanskrit",
+                            "what is the Sanskrit syllabus",
+                            "what is the Sanskrit Honours syllabus",
+                            "what is Sanskrit syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Sanskrit Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Sanskrit_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllSoci",
+                    "patterns": [
+                            "Syllabus for Sociology",
+                            "Sociology syllabus",
+                            "syllabus Sociology",
+                            "what is the Sociology syllabus",
+                            "what is the Sociology Honours syllabus",
+                            "what is Sociology syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Sociology Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Sociology.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllPsych",
+                    "patterns": [
+                            "Syllabus for Psychology",
+                            "Psychology syllabus",
+                            "syllabus Psychology",
+                            "what is the Psychology syllabus",
+                            "what is the Psychology Honours syllabus",
+                            "what is Psychology syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Psychology Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Psychology.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllPhEd",
+                    "patterns": [
+                            "Syllabus for Physical Education",
+                            "Physical Education syllabus",
+                            "syllabus Physical Education",
+                            "what is the Physical Education syllabus",
+                            "what is Physical Education syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Physical Education is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_PhysicalEducation_CBCS.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllBot",
+                    "patterns": [
+                            "Syllabus for Botany",
+                            "Botany syllabus",
+                            "syllabus Botany",
+                            "what is the Botany syllabus",
+                            "what is the Botany Honours syllabus",
+                            "what is Botany syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Botany Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Botany_syllabus.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllChem",
+                    "patterns": [
+                            "Syllabus for Chemistry",
+                            "Chemistry syllabus",
+                            "syllabus Chemistry",
+                            "what is the Chemistry syllabus",
+                            "what is the Chemistry Honours syllabus",
+                            "what is Chemistry syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Chemistry Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Chemistry_syllabus.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllChem",
+                    "patterns": [
+                            "Syllabus for Chemistry",
+                            "Chemistry syllabus",
+                            "syllabus Chemistry",
+                            "what is the Chemistry syllabus",
+                            "what is the Chemistry Honours syllabus",
+                            "what is Chemistry syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Chemistry Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Chemistry_syllabus.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllCS",
+                    "patterns": [
+                            "Syllabus for Computer Science",
+                            "Computer Science syllabus",
+                            "syllabus Computer Science",
+                            "what is the Computer Science syllabus",
+                            "what is the Computer Science Honours syllabus",
+                            "what is Computer Science syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Computer Science Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/ComputerScience_syllabus.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllEco",
+                    "patterns": [
+                            "Syllabus for Economics",
+                            "Economics syllabus",
+                            "syllabus Economics",
+                            "what is the Economics syllabus",
+                            "what is the Economics Honours syllabus",
+                            "what is Economics syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Economics Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Economics_syllabus.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllMath",
+                    "patterns": [
+                            "Syllabus for Mathematics",
+                            "Syllabus for Maths",
+                            "Mathematics syllabus",
+                            "Maths syllabus",
+                            "syllabus Mathematics",
+                            "syllabus Maths",
+                            "what is the Mathematics syllabus",
+                            "what is the Maths syllabus",
+                            "what is the Mathematics Honours syllabus",
+                            "what is the Maths Honours syllabus",
+                            "what is Mathematics syllabus?",
+                            "what is Maths syllabus?"                            
+                    ],
+                    "responses": [
+                            "Syllabus of Mathematics Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Mathematics_syllabus.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllMicro",
+                    "patterns": [
+                            "Syllabus for Microbiology",
+                            "Microbiology syllabus",
+                            "syllabus Microbiology",
+                            "what is the Microbiology syllabus",
+                            "what is the Microbiology Honours syllabus",
+                            "what is Microbiology syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Microbiology Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Microbiology_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllPhys",
+                    "patterns": [
+                            "Syllabus for Physics",
+                            "Physics syllabus",
+                            "syllabus Physics",
+                            "what is the Physics syllabus",
+                            "what is the Physics Honours syllabus",
+                            "what is Physics syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Physics Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Physics_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllStat",
+                    "patterns": [
+                            "Syllabus for Statistics",
+                            "Statistics syllabus",
+                            "syllabus Statistics",
+                            "what is the Statistics syllabus",
+                            "what is the Statistics Honours syllabus",
+                            "what is Statistics syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Statistics Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Stat.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllZoo",
+                    "patterns": [
+                            "Syllabus for Zoology",
+                            "Zoology syllabus",
+                            "syllabus Zoology",
+                            "what is the Zoology syllabus",
+                            "what is the Zoology Honours syllabus",
+                            "what is Zoology syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of Zoology Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_Zoology_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllBcom",
+                    "patterns": [
+                            "Syllabus for Commerce",
+                            "Syllabus for B.Com",
+                            "Syllabus for Bcom",
+                            "Commerce syllabus",
+                            "B.Com syllabus",
+                            "Bcom syllabus",
+                            "syllabus Commerce",
+                            "syllabus B.Com",
+                            "syllabus Bcom",
+                            "what is the Commerce syllabus",
+                            "what is the B.Com syllabus",
+                            "what is the Bcom syllabus",
+                            "what is the B.Com Honours syllabus",
+                            "what is the Bcom Honours syllabus",
+                            "what is Commerce syllabus?",
+                            "what is B.com syllabus?",
+                            "what is Bcom syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of B.Com Honours is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/BCom_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "syllBBA",
+                    "patterns": [
+                            "Syllabus for BBA",
+                            "BBA syllabus",
+                            "syllabus BBA",
+                            "what is the BBA syllabus",
+                            "what is BBA syllabus?"
+                    ],
+                    "responses": [
+                            "Syllabus of BBA is available in the link below. <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/docs/Syllabus/UG_BBA_Syllabus.pdf\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "library",
+                    "patterns": [
+                            "is there any library",
+                            "library facility",
+                            "library facilities",
+                            "do you have library",
+                            "does the college have library facility",
+                            "college library",
+                            "where can i get books",
+                            "book facility",
+                            "Where is library",
+                            "Library",
+                            "Tell me about library",
+                            "how many libraries"
+                    ],
+                    "responses": [
+                            "The college has a well- equipped automated library containing more than 1,18,000 books and 13402 journals. It serves as the hive of academic activities for students, scholars and faculty members in the pursuit of excellence in their respective area of academic pursuits. The library is fully automated with the utilisation of the LIBSYS software. Internet access from the library is available with a small number of computers for staff and students for searching digitized catalogues. Access to online journals and bibliographic databases is provided to the faculty members through the UGC Information and Library Network (INFLIBNET). The efforts to transform into a fully digital library are underway.<br><br>For more details visit <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/library.php\"> here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "placement",
+                    "patterns": [
+                            "What is college placement",
+                            "Which companies visit in college",
+                            "What is average package",
+                            "companies visit",
+                            "package",
+                            "placement",
+                            "recruitment",
+                            "companies",
+                            "is there any placement cell?",
+                            "placement cell",
+                            "tell me about placement cell"
+                    ],
+                    "responses": [
+                            "The Placement Cell of Scottish Church College, Kolkata creates a platform where final year students can showcase their skills & talent which different companies seek to explore. For more information visit <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/placement_cell.php\">here</a>",
+                            "Our college oragnise various activities related to placements.For latest update visit <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/placement_cell.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Ben",
+                    "patterns": [
+                            "Bengali Department",
+                            "Department of Bengali",
+                            "Bengali Honours",
+                            "Bengali",
+                            "Tell me about Bengali Department",
+                            "Tell me about Department of Bengali"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Bengali <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Bengali_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Eng",
+                    "patterns": [
+                            "English Department",
+                            "Department of English",
+                            "English Honours",
+                            "English",
+                            "Tell me about English Department",
+                            "Tell me about Department of English"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of English <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/English_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Hind",
+                    "patterns": [
+                            "Hindi Department",
+                            "Department of Hindi",
+                            "Hindi Honours",
+                            "Hindi",
+                            "Tell me about Hindi Department",
+                            "Tell me about Department of Hindi"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Hindi <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Hindi_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Hist",
+                    "patterns": [
+                            "History Department",
+                            "Department of History",
+                            "History Honours",
+                            "History",
+                            "Tell me about History Department",
+                            "Tell me about Department of History"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of History <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/History_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Phil",
+                    "patterns": [
+                            "Philosophy Department",
+                            "Department of Philosophy",
+                            "Philosophy Honours",
+                            "Philosophy",
+                            "Tell me about Philosophy Department",
+                            "Tell me about Department of Philosophy"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Philosophy <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Philosophy_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Pols",
+                    "patterns": [
+                            "Political Science Department",
+                            "Department of Political Science",
+                            "Political Science Honours",
+                            "Political Science",
+                            "Tell me about Political Science Department",
+                            "Tell me about Department of Political Science"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Political Science <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/PoliticalScience_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Sanskrit",
+                    "patterns": [
+                            "Sanskrit Department",
+                            "Department of Sanskrit",
+                            "Sanskrit Honours",
+                            "Sanskrit",
+                            "Tell me about Sanskrit Department",
+                            "Tell me about Department of Sanskrit"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Sanskrit <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Sanskrit_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Soc",
+                    "patterns": [
+                            "Sociology Department",
+                            "Department of Sociology",
+                            "Sociology Honours",
+                            "Sociology",
+                            "Tell me about Sociology Department",
+                            "Tell me about Department of Sociology"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Sociology <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Sociology_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Psych",
+                    "patterns": [
+                            "Psychology Department",
+                            "Department of Psychology",
+                            "Psychology Honours",
+                            "Psychology",
+                            "Tell me about Psychology Department",
+                            "Tell me about Department of Psychology"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Psychology <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Psychology_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "PhEd",
+                    "patterns": [
+                            "Physical Education Department",
+                            "Department of Physical Education",
+                            "Physical Education Honours",
+                            "Physical Education",
+                            "Tell me about Physical Education Department",
+                            "Tell me about Department of Physical Education"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Physical Education <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/PhysicalEducation_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Bot",
+                    "patterns": [
+                            "Botany Department",
+                            "Department of Botany",
+                            "Botany Honours",
+                            "Botany",
+                            "Tell me about Botany Department",
+                            "Tell me about Department of Botany"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Botany <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Botany_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Chem",
+                    "patterns": [
+                            "Chemistry Department",
+                            "Department of Chemistry",
+                            "Chemistry Honours",
+                            "Chemistry",
+                            "Tell me about Chemistry Department",
+                            "Tell me about Department of Chemistry"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Chemistry <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Chemistry_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "CompSc",
+                    "patterns": [
+                            "Computer Science Department",
+                            "Department of Computer Science",
+                            "Computer Science Honours",
+                            "Computer Science",
+                            "Tell me about Computer Science Department",
+                            "Tell me about Department of Computer Science"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Computer Science <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/ComputerScience_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Eco",
+                    "patterns": [
+                            "Economics Department",
+                            "Department of Economics",
+                            "Economics Honours",
+                            "Economics",
+                            "Tell me about Economics Department",
+                            "Tell me about Department of Economics"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Economics <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Economics_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Math",
+                    "patterns": [
+                            "Mathematics Department",
+                            "Maths Department",
+                            "Department of Mathematics",
+                            "Department of Maths",
+                            "Mathematics Honours",
+                            "Maths Honours",
+                            "Mathematics",
+                            "Maths",
+                            "Tell me about Mathematics Department",
+                            "Tell me about Maths Department",
+                            "Tell me about Department of Mathematics",
+                            "Tell me about Department of Maths"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Mathematics <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Mathematics_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Micro",
+                    "patterns": [
+                            "Microbiology Department",
+                            "Department of Microbiology",
+                            "Microbiology Honours",
+                            "Microbiology",
+                            "Tell me about Microbiology Department",
+                            "Tell me about Department of Microbiology"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Microbiology <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Microbiology_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Phys",
+                    "patterns": [
+                            "Physics Department",
+                            "Department of Physics",
+                            "Physics Honours",
+                            "Physics",
+                            "Tell me about Physics Department",
+                            "Tell me about Department of Physics"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Physics <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Physics_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Stat",
+                    "patterns": [
+                            "Statistics Department",
+                            "Department of Statistics",
+                            "Statistics Honours",
+                            "Statistics",
+                            "Tell me about Statistics Department",
+                            "Tell me about Department of Statistics"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Statistics <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/UG/Statistics_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Zoo",
+                    "patterns": [
+                            "Zoology Department",
+                            "Department of Zoology",
+                            "Zoology Honours",
+                            "Zoology",
+                            "Tell me about Zoology Department",
+                            "Tell me about Department of Zoology"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Zoology <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/UG/Zoology_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "Bcom",
+                    "patterns": [
+                            "Commerce Department",
+                            "B.Com Department",
+                            "Bcom Department",
+                            "Department of Commerce",
+                            "Department of B.Com",
+                            "Department of Bcom",
+                            "B.Com Honours",
+                            "Bcom Honours",
+                            "Commerce",
+                            "B.Com",
+                            "Bcom",
+                            "Tell me about Commerce Department",
+                            "Tell me about B.Com Department",
+                            "Tell me about Bcom Department",
+                            "Tell me about Department of Commerce"
+                    ],
+                    "responses": [
+                            "You will get all the information about Department of Commerce <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/UG/Commerce_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "BBA",
+                    "patterns": [
+                            "BBA Department",
+                            "Department of BBA",
+                            "BBA",
+                            "Tell me about BBA Department",
+                            "Tell me about Department of BBA"
+                    ],
+                    "responses": [
+                            "You will get all the information about BBA Department <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/UG/BBA_about.php\">here</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "principal",
+                    "patterns": [
+                            "what is the name of principal",
+                            "whatv is the principal name",
+                            "principal name",
+                            "Who is college principal",
+                            "Where is principal's office",
+                            "principal",
+                            "name of principal",
+                            "Who is the principal?",
+                            "Tell me about the college principal.",
+                            "Principal's name, please?",
+                            "Who leads the college as the principal?",
+                            "Can you provide information about the principal?",
+                            "What is the name of the college principal?",
+                            "Who is currently serving as the principal?",
+                            "Could you tell me the principal's name?",
+                            "Who is in charge of the college as the principal?",
+                            "I'm curious about the principal of the college.",
+                            "Do you know the name of the principal?",
+                            "Can you share some details about the college principal?"
+                    ],
+                    "responses": [
+                            "Dr. Madhumanjari Mandal is college principal.",
+                            "The principal of our college is Dr. Madhumanjari Mandal.",
+                            "Dr. Madhumanjari Mandal serves as the principal of our college.",
+                            "At our college, the principal's name is Dr. Madhumanjari Mandal.",
+                            "You'll be glad to know that our college is led by Dr. Madhumanjari Mandal.",
+                            "The current principal of our college is Dr. Madhumanjari Mandal.",
+                            "Dr. Madhumanjari Mandal holds the position of the college principal.",
+                            "We have the esteemed Dr. Madhumanjari Mandal as our college principal.",
+                            "The person in charge of our college as the principal is Dr. Madhumanjari Mandal.",
+                            "Dr. Madhumanjari Mandal leads our college with dedication and expertise.",
+                            "The principal's name is Dr. Madhumanjari Mandal.",
+                            "Our college principal, Dr. Madhumanjari Mandal, plays a vital role in our institution."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "holiday_list",
+                    "patterns": [
+                        "holiday list",
+                        "What are the holidays in the academic calendar?",
+                        "Can you provide the holiday list?",
+                        "Is there a schedule of holidays available?",
+                        "When are the holidays in the college?",
+                        "Tell me about the holiday list.",
+                        "Are there any breaks or vacations in the academic year?",
+                        "I want to know the list of holidays.",
+                        "Which days are considered holidays in the college?",
+                        "Can you give me information about the college holiday schedule?",
+                        "When is the college closed for holidays?",
+                        "Is there a specific holiday calendar for the college?",
+                        "What days can I expect to have off as per the holiday list?"
+                    ],
+                    "responses": [
+                        "The list of recess and holidays can be found in the <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/college_prospectus.php\">college prospectus</a>."
+                    ],
+                    "context_set": ""
+            },
+                {
+                    "tag": "college_prospectus",
+                    "patterns": [
+                        "Can I get a college prospectus?",
+                        "Where can I find the college prospectus?",
+                        "Is there a prospectus available for the college?",
+                        "Tell me about the college prospectus.",
+                        "How can I obtain the college prospectus?",
+                        "I'm interested in the college prospectus.",
+                        "Where can I get more information about the college?",
+                        "Do you have a prospectus I can review?",
+                        "Can you provide details about the college prospectus?",
+                        "Is there a specific document for the college programs and courses?",
+                        "What is included in the college prospectus?",
+                        "How can I request a copy of the college prospectus?",
+                        "college prospectus"
+                    ],
+                    "responses": [
+                        "The college prospectus is available for download on our college <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/college_prospectus.php\">website</a>. It provides detailed information about our academic offerings, admission process, campus facilities, and much more."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "about_college",
+                    "patterns": [
+                        "Tell me about the college.",
+                        "What can you tell me about the college?",
+                        "I want to know more about the college.",
+                        "Can you provide information about the college?",
+                        "What is special about the college?",
+                        "Tell me some key facts about the college.",
+                        "How would you describe the college?",
+                        "Is the college known for any specific achievements?",
+                        "What is the college's mission and vision?",
+                        "Can you give me an overview of the college?",
+                        "What are the highlights of the college?",
+                        "What makes the college unique?",
+                        "What is the college's educational philosophy?"
+                    ],
+                    "responses": [
+                        "Scottish Church College, founded in 1830 as the General Assembly's Institution, is a renowned educational institution in North Calcutta, India. Rev. Alexander Duff, the first missionary from the Church of Scotland to India, established the college with the aim of integrating Western education and Christian mission for the progress of the people. Today, the college upholds its founder's vision by striving for academic excellence, social awareness, and character development. It has produced notable individuals such as Swami Vivekananda and Netaji Subhas Chandra Bose. The college is affiliated with the University of Calcutta and holds autonomous status for its postgraduate studies. It offers undergraduate honors courses in 15 subjects and postgraduate courses in two subjects. Additionally, the college's Department of Teacher Education prepares women students for the Bachelor of Education degree. With its rich heritage and commitment to holistic development, Scottish Church College has garnered recognition as one of the top fifty colleges in India. To know more about Our college and college history visit <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/the-college.php\">website</a>."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "college_achievements",
+                    "patterns": [
+                        "achievements",
+                        "achievement",
+                        "What are some notable achievements of the college?",
+                        "Tell me about the college's achievements.",
+                        "Can you share some accomplishments of the college?",
+                        "What notable milestones has the college reached?",
+                        "Are there any specific awards or recognitions received by the college?",
+                        "Tell me about the college's success stories.",
+                        "What are some impressive achievements of the college?",
+                        "Can you provide information about the college's accomplishments?",
+                        "Has the college received any accolades or honors?",
+                        "What significant contributions has the college made?",
+                        "Tell me about the college's achievements in the past years.",
+                        "What are some remarkable successes of the college?",
+                        "Has the college been recognized for any specific achievements?",
+                        "Can you share some examples of the college's achievements?",
+                        "Tell me about the college's notable accomplishments.",
+                        "What milestones has the college achieved in its history?",
+                        "Has the college made any groundbreaking discoveries or innovations?",
+                        "Tell me about the college's impact on the community or society.",
+                        "What are some extraordinary feats of the college?",
+                        "Has the college received any special commendations?"
+                    ],
+                    "responses": [
+                        "Our college has achieved numerous notable accomplishments over the years. Some of these include academic excellence, research breakthroughs, community engagement initiatives, and successful collaborations with industry partners. For more details visit <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/achievements-college.php\">website</a>.",
+                        "The college takes pride in its impressive achievements, which range from academic achievements of students and faculty to research advancements and impactful community projects. These accomplishments reflect our commitment to excellence and innovation. For more details visit <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/achievements-college.php\">website</a>."
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "service_learning",
+                    "patterns": [
+                        "service learning cell",
+                        "service learning",
+                        "What is service learning at the college?",
+                        "Can you tell me about the college's service learning program?",
+                        "How does service learning work at the college?",
+                        "Tell me more about the community service initiatives at the college.",
+                        "What opportunities are available for service learning?",
+                        "How does the college integrate service learning into the curriculum?",
+                        "Can you provide information about the benefits of service learning?",
+                        "What are some examples of service learning projects at the college?",
+                        "How does service learning contribute to the college's mission?",
+                        "Is service learning a mandatory requirement at the college?",
+                        "Tell me about the impact of service learning on students' personal development.",
+                        "What partnerships does the college have for service learning?",
+                        "How are students supported in their service learning experiences?",
+                        "Can you share success stories related to service learning at the college?",
+                        "What are the goals of the college's service learning program?",
+                        "Tell me about the reflection component in service learning at the college.",
+                        "Does the college offer any scholarships or recognition for service learning?",
+                        "What role does service learning play in fostering civic engagement?",
+                        "How can students get involved in service learning?",
+                        "Tell me about the college's commitment to community service."
+                    ],
+                    "responses": [
+                        "Service learning is an integral part of the college experience. It combines academic learning with community service, allowing students to apply their knowledge and skills to real-world issues. Through service learning, students gain valuable practical experience, develop a sense of civic responsibility, and contribute to the betterment of society. For more details visit <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/service_learning_cell.php\">website</a>.",
+                        "The college's service learning program provides students with meaningful opportunities to engage in community service and make a positive impact. Students can participate in various service projects, collaborate with community organizations, and reflect on their experiences to deepen their understanding of social issues. For more details visit <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/service_learning_cell.php\">website</a>."
+                    ],
+                    "context_set": ""
+            },
+
+            {
+                    "tag": "admission",
+                    "patterns": [
+                            "what is the process of admission",
+                            "what is the admission process",
+                            "How to take admission in your college",
+                            "What is the process for admission",
+                            "admission",
+                            "admission process",
+                            "eligibility for admission",
+                            "eligibility",
+                            "what is the eligibility",
+                            "eligibility criteria",
+                            "eligibility criteria for enigineering",
+                            "admission engineering"
+                    ],
+                    "responses": [
+                            "The entire Admission process is carried out in online mode. Refer <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/admissions.php\">website</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "facilities",
+                    "patterns": [
+                            "What facilities college provide",
+                            "College facility",
+                            "What are college facilities",
+                            "facilities",
+                            "facilities provided"
+                    ],
+                    "responses": [
+                            "Scottish Church College provides several facilities. Refer <a target=\"_blank\"href=\"https://www.scottishchurch.ac.in/other_facilities.php\">website</a>"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "uniform",
+                    "patterns": [
+                            "college dress code",
+                            "college dresscode",
+                            "what is the uniform",
+                            "can we wear casuals",
+                            "Does college have an uniform",
+                            "Is there any uniform",
+                            "uniform",
+                            "what about uniform",
+                            "do we have to wear uniform"
+                    ],
+                    "responses": [
+                            "Scottish Church College does not have uniform"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "random",
+                    "patterns": [
+                            
+                            "I love you",
+                            "Will you marry me",
+                            "Do you love me"
+                    ],
+                    "responses": [
+                            "I am not program for this please ask appropriate query"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "swear",
+                    "patterns": [
+                            "fuck",
+                            "bitch",
+                            "shut up",
+                            "hell",
+                            "stupid",
+                            "idiot",
+                            "dumb ass",
+                            "asshole",
+                            "fucker"
+                    ],
+                    "responses": [
+                            "please use appropriate language",
+                            "Maintaining decency would be appreciated"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "salutaion",
+                    "patterns": [
+                            "okk",
+                            "okie",
+                            "nice work",
+                            "well done",
+                            "good job",
+                            "thanks for the help",
+                            "Thank You",
+                            "its ok",
+                            "Thanks",
+                            "k",
+                            "ok",
+                            "okay"
+                    ],
+                    "responses": [
+                            "I am glad I helped you",
+                            "welcome, anything else i can assist you with?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "task",
+                    "patterns": [
+                            "what can you do",
+                            "what are the thing you can do",
+                            "things you can do",
+                            "what can u do for me",
+                            "how u can help me",
+                            "why i should use you"
+                    ],
+                    "responses": [
+                            "I can answer to low-intermediate questions regarding college",
+                            "You can ask me questions regarding college, and i will try to answer them"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag":"ragging",
+                    "patterns":[
+                            "ragging",
+                            "is ragging practice active in college",
+                            "does college have any antiragging facility",
+                            "is there any ragging cases",
+                            "is ragging done here",
+                            "ragging juniors",
+                            "ragging history",
+                            "ragging incidents"
+                            
+                    ],
+                    "responses": [
+                            "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging. For any information <a target=\"_blank\" href=\"https://www.scottishchurch.ac.in/statutory_committees.php\">here</a>"
+                    ]
+
+            },
+            {
+                    "tag":"scholarship",
+                    "patterns":[
+                            "scholarship",
+                            "Is scholarship available",
+                            "available scholarships",
+                            "list of scholarship",
+                            "first year scholarship",
+                            "second year scholarship",																				
+                            "third year scholarship",
+                            "fourth year scholarship"
+                    ],
+                    "responses":[
+                            "Many government scholarships are supported by SCC. For details and updates visit <a target=\"_blank\" href=\"href=\"https://www.scottishchurch.ac.in/scholarships.php\">here</a>"
+                    ]
+            },
+            {
+                    "tag":"others",
+                    "patterns":[
+                            "jbjdbcoboc"
+                    ],
+                    "responses":[
+                            "Sorry I couldn't understand your query. Please reiterate or ask me something else. Maybe the college authorities do not have any information to part regarding this matter. Apologize for the inconvenience."
+                    ]
+            }
+            
+    ]
+}
